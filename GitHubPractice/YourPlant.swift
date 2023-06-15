@@ -11,10 +11,10 @@ import SwiftUI
 struct YourPlant: View {
     var body: some View{
         VStack{
-            Image("PlantBack2")
+           Image("PlantBack2")
                 .padding(.bottom, 30.0)
                 .overlay(Image("Serenity2")
-                    .padding(.bottom, 500.0))
+                 .padding(.bottom, 500.0))
                 .ignoresSafeArea()
            
             
