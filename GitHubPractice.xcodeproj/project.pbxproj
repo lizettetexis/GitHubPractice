@@ -14,6 +14,8 @@
 		BDD1C9402A376B010082984B /* GitHubPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1C93F2A376B010082984B /* GitHubPracticeTests.swift */; };
 		BDD1C94A2A376B010082984B /* GitHubPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1C9492A376B010082984B /* GitHubPracticeUITests.swift */; };
 		BDD1C94C2A376B010082984B /* GitHubPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1C94B2A376B010082984B /* GitHubPracticeUITestsLaunchTests.swift */; };
+		BDF1E5212A3B639D001F8D53 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1E5202A3B639D001F8D53 /* SecondView.swift */; };
+		BDF1E5232A3B650E001F8D53 /* YourPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1E5222A3B650E001F8D53 /* YourPlant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BDD1C9452A376B010082984B /* GitHubPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1C9492A376B010082984B /* GitHubPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPracticeUITests.swift; sourceTree = "<group>"; };
 		BDD1C94B2A376B010082984B /* GitHubPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF1E5202A3B639D001F8D53 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BDF1E5222A3B650E001F8D53 /* YourPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BDD1C92E2A376B000082984B /* GitHubPracticeApp.swift */,
 				BDD1C9302A376B000082984B /* ContentView.swift */,
+				BDF1E5202A3B639D001F8D53 /* SecondView.swift */,
+				BDF1E5222A3B650E001F8D53 /* YourPlant.swift */,
 				BDD1C9322A376B010082984B /* Assets.xcassets */,
 				BDD1C9342A376B010082984B /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF1E5232A3B650E001F8D53 /* YourPlant.swift in Sources */,
+				BDF1E5212A3B639D001F8D53 /* SecondView.swift in Sources */,
 				BDD1C9312A376B000082984B /* ContentView.swift in Sources */,
 				BDD1C92F2A376B000082984B /* GitHubPracticeApp.swift in Sources */,
 			);
