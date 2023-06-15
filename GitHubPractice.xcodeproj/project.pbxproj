@@ -17,6 +17,7 @@
 		BDF1E5212A3B639D001F8D53 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1E5202A3B639D001F8D53 /* SecondView.swift */; };
 		BDF1E5232A3B650E001F8D53 /* YourPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1E5222A3B650E001F8D53 /* YourPlant.swift */; };
 		BDF1E52D2A3B9442001F8D53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1E52C2A3B9442001F8D53 /* Persistence.swift */; };
+		BDF1E5302A3B9C2E001F8D53 /* GitHubPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF1E52E2A3B9C2E001F8D53 /* GitHubPractice.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		BDF1E5202A3B639D001F8D53 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		BDF1E5222A3B650E001F8D53 /* YourPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlant.swift; sourceTree = "<group>"; };
 		BDF1E52C2A3B9442001F8D53 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BDF1E52F2A3B9C2E001F8D53 /* GitHubPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitHubPractice.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				BDF1E5222A3B650E001F8D53 /* YourPlant.swift */,
 				BDD1C9322A376B010082984B /* Assets.xcassets */,
 				BDD1C9342A376B010082984B /* Preview Content */,
+				BDF1E52E2A3B9C2E001F8D53 /* GitHubPractice.xcdatamodeld */,
 			);
 			path = GitHubPractice;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				BDD1C9312A376B000082984B /* ContentView.swift in Sources */,
 				BDD1C92F2A376B000082984B /* GitHubPracticeApp.swift in Sources */,
 				BDF1E52D2A3B9442001F8D53 /* Persistence.swift in Sources */,
+				BDF1E5302A3B9C2E001F8D53 /* GitHubPractice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +599,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF1E52E2A3B9C2E001F8D53 /* GitHubPractice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF1E52F2A3B9C2E001F8D53 /* GitHubPractice.xcdatamodel */,
+			);
+			currentVersion = BDF1E52F2A3B9C2E001F8D53 /* GitHubPractice.xcdatamodel */;
+			path = GitHubPractice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BDD1C9232A376B000082984B /* Project object */;
 }

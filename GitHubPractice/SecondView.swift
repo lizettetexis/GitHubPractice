@@ -8,15 +8,39 @@
 import Foundation
 import SwiftUI
 
-struct SecondView: View {
-    var body: some View{
-        Text("Task Page")
-    }
+// Task model
+struct Task: Identifiable {
+    var id = UUID()
+    var name: String
 }
 
-struct SecondView_Previews:
-    PreviewProvider{
-    static var previews: some View{
-        SecondView()
+// SecondView
+struct SecondView: View {
+    @State private var tasks = [
+        Task(name: "Walk a dog"),
+        Task(name: "Do some yoga"),
+        Task(name: "Do some meditation")
+    ]
+
+    var body: some View {
+        NavigationView {
+            List {
+                ForEach(tasks) { task in
+                    Text(task.name)
+                }
+                .onDelete(perform: deleteTask)
+            }
+            .navigationTitle("Task Page")
+        }
     }
-}
+
+        private func deleteTask(offsets: IndexSet) {
+            tasks.remove(atOffsets: offsets)
+        }
+    }
+
+    struct SecondView_Previews: PreviewProvider {
+        static var previews: some View {
+            SecondView()
+        }
+    }
