@@ -12,6 +12,11 @@ struct YourPlant: View {
     var body: some View{
         Image("PlantBack2")
             .padding(.bottom, 30.0)
+            .overlay(Image("Serenity2")
+                .padding(.bottom, 500.0))
+              
+            
+            
     }
 }
 
