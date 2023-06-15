@@ -12,39 +12,40 @@ struct ContentView: View {
     @State private var textTitle2 = ""
     var body: some View {
         ZStack{
-            Image("nn6")
-                .padding(.bottom, 30.0)
-                .ignoresSafeArea()
+            Image("homebackground")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .padding(.all, -20.0)
                 .overlay(Text("Welcome back, user!")
                     .font(.title)
-                    .foregroundColor(Color(hue: 0.463, saturation: 0.268, brightness: 0.918))
+                    .foregroundColor(Color(hue: 0.484, saturation: 0.252, brightness: 0.786))
                     .multilineTextAlignment(.center))
             
-            VStack{
+            VStack(alignment: .center){
                 Button {
                 } label: {
                     Text("Your Tasks")
-                        .foregroundColor(.teal)
+                        .foregroundColor(Color(hue: 0.484, saturation: 0.252, brightness: 0.786))
                         .font(.system(size: 33))
                         .padding(.all, 90.0)
                         .frame(height: 80.0)
-                        .background(Color(hue: 0.924, saturation: 0.762, brightness: 0.767))
-                        .cornerRadius(8)
+                        .background(Color(red: 0.037, green: 0.175, blue: 0.469))
+                        .cornerRadius(2)
                 }
-                .padding(.top, -50.0)
+                .padding(.top, -70.0)
                 Button {
                     } label: {
-                        Text("Your Tasks")
-                            .foregroundColor(.teal)
+                        Text("Your Plant ")
+                            .foregroundColor(Color(hue: 0.484, saturation: 0.252, brightness: 0.786))
                             .font(.system(size: 33))
                             .padding(.all, 90.0)
                             .frame(height: 80.0)
-                            .background(Color(hue: 0.924, saturation: 0.762, brightness: 0.767))
-                            .cornerRadius(8)
+                            .background(Color(red: 0.037, green: 0.175, blue: 0.469))
+                            .cornerRadius(2)
                     }
-                .padding(.top, 10.0)
+                .padding(.top, 15.0)
             }
-            .position(x: 241, y:600)
+            .position(x:197, y:600)
         }
     }
     
