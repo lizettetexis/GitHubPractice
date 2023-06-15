@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Image("homebackground")
-                .resizable(resizingMode: .stretch)
+                .resizable(capInsets: EdgeInsets(top: 0.0, leading: 6.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
                 .padding(.all, -20.0)
                 .overlay(Text("Welcome back, user!")
