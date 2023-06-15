@@ -17,10 +17,18 @@ struct Task: Identifiable {
 // SecondView
 struct SecondView: View {
     @State private var tasks = [
-        Task(name: "Walk a dog"),
-        Task(name: "Do some yoga"),
-        Task(name: "Do some meditation")
+        Task(name: "Go on a 15-minute walk"),
+        Task(name: "Try out yoga"),
+        Task(name: "Do some gardening"),
+        Task(name: "Go bird watching"),
+        Task(name: "Call a friend (or a few friends!"),
+        Task(name: "Pick up 5 pieces of trash outside"),
+        Task(name: "Quick 5-minute meditation"),
+        Task(name: "Go geocaching"),
+        Task(name: "Water your plants"),
+        Task(name: "Watch the sunset")
     ]
+
 
     var body: some View {
         NavigationView {
