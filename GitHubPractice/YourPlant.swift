@@ -10,7 +10,8 @@ import SwiftUI
 
 struct YourPlant: View {
     var body: some View{
-        Text("The Plant")
+        Image("PlantBack2")
+            .padding(.bottom, 30.0)
     }
 }
 
