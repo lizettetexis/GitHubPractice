@@ -37,7 +37,7 @@ struct SecondView: View {
                     ForEach(tasks) { task in
                         Text(task.name)
                             .padding(.vertical, 25.0)
-                            .listRowBackground(Color("magenta"))
+                            .listRowBackground(Color(red: 0.794, green: 0.135, blue: 0.536))
                     }
                     .onDelete(perform: deleteTask)
                 }
