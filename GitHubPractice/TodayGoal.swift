@@ -11,13 +11,9 @@ import SwiftUI
 struct TodayGoal: View {
     var body: some View{
         ZStack{
-            Rectangle()
-                .background(Color(red: 0.001, green: 0.088, blue: 0.212))
-                .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.001, green: 0.088, blue: 0.212)/*@END_MENU_TOKEN@*/)
-            Image("goal")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+            Image("Goal2")
+                .ignoresSafeArea()
+                .padding(.bottom, 60)
         }
     }
 }
