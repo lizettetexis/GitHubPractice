@@ -33,6 +33,7 @@ struct ContentView: View {
                                 .cornerRadius(4)
                         }
                     }
+                    .padding(.top, 35.0)
                     
                     Button {
                     } label: {
@@ -44,11 +45,16 @@ struct ContentView: View {
                                 .frame(width: 300.0, height: 100.0)
                                 .background(Color(red: 0.037, green: 0.175, blue: 0.469))
                                 .cornerRadius(4)
-                            NavigationLink(destination: TodayGoal()){
-                                Text("Take me to a new view")}
                         }
                     }
                     .padding(.top, 15.0)
+                    
+                    NavigationLink(destination: TodayGoal()){
+                        Text("Click here to view today's goals")
+                            .padding(.top, 15.0)
+                            .foregroundColor(.mint)
+                    }
+                    
                 }
                 .position(x:240, y:560)
             }

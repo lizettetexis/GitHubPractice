@@ -30,20 +30,25 @@ struct SecondView: View {
     ]
     
     
+    
     var body: some View {
-            NavigationView {
+        NavigationView {
                 List {
                     ForEach(tasks) { task in
                         Text(task.name)
+                            .padding(.vertical, 25.0)
                             .listRowBackground(Color("magenta"))
                     }
                     .onDelete(perform: deleteTask)
                 }
                 .navigationTitle("Your Tasks")
                 .font(.title2)
-                
+            }
         }
-    }
+
+
+   
+    
         private func deleteTask(offsets: IndexSet) {
             tasks.remove(atOffsets: offsets)
         }
