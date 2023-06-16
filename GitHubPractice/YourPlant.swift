@@ -11,20 +11,19 @@ import SwiftUI
 struct YourPlant: View {
     var body: some View{
         ZStack{
-           Image("PlantBack6")
+            Image("PlantBack7")
                 .padding(.bottom, 70.0)
                 .overlay(Image("Serenity2")
-                .padding(.bottom, 550.0))
-              //  .ignoresSafeArea()
-           
+                    .padding(.bottom, 500.0))
+            //  .ignoresSafeArea()
             
         }
     }
 }
-
-struct YourPlant_Previews:
-    PreviewProvider{
-    static var previews: some View{
-        YourPlant()
+    struct YourPlant_Previews:
+        PreviewProvider{
+        static var previews: some View{
+            YourPlant()
+        }
     }
-}
+

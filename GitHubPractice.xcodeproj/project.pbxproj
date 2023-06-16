@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD52BEF12A3CB9E100D49BFF /* TodayGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52BEF02A3CB9E100D49BFF /* TodayGoal.swift */; };
 		BDD1C92F2A376B000082984B /* GitHubPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1C92E2A376B000082984B /* GitHubPracticeApp.swift */; };
 		BDD1C9312A376B000082984B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1C9302A376B000082984B /* ContentView.swift */; };
 		BDD1C9332A376B010082984B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD1C9322A376B010082984B /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD52BEF02A3CB9E100D49BFF /* TodayGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayGoal.swift; sourceTree = "<group>"; };
 		BDD1C92B2A376B000082984B /* GitHubPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1C92E2A376B000082984B /* GitHubPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPracticeApp.swift; sourceTree = "<group>"; };
 		BDD1C9302A376B000082984B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				BDD1C9302A376B000082984B /* ContentView.swift */,
 				BDF1E5202A3B639D001F8D53 /* SecondView.swift */,
 				BDF1E5222A3B650E001F8D53 /* YourPlant.swift */,
+				BD52BEF02A3CB9E100D49BFF /* TodayGoal.swift */,
 				BDF1E52C2A3B9442001F8D53 /* Persistence.swift */,
 				BDD1C9322A376B010082984B /* Assets.xcassets */,
 				BDD1C9342A376B010082984B /* Preview Content */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF1E5232A3B650E001F8D53 /* YourPlant.swift in Sources */,
+				BD52BEF12A3CB9E100D49BFF /* TodayGoal.swift in Sources */,
 				BDF1E5212A3B639D001F8D53 /* SecondView.swift in Sources */,
 				BDD1C9312A376B000082984B /* ContentView.swift in Sources */,
 				BDD1C92F2A376B000082984B /* GitHubPracticeApp.swift in Sources */,

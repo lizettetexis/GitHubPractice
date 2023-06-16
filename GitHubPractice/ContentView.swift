@@ -44,20 +44,23 @@ struct ContentView: View {
                                 .frame(width: 300.0, height: 100.0)
                                 .background(Color(red: 0.037, green: 0.175, blue: 0.469))
                                 .cornerRadius(4)
+                            NavigationLink(destination: TodayGoal()){
+                                Text("Take me to a new view")}
                         }
                     }
                     .padding(.top, 15.0)
                 }
                 .position(x:240, y:560)
             }
-        }
-    }
-}
-                        
-                        
-        struct ContentView_Previews: PreviewProvider {
-            static var previews: some View {
-                ContentView()
             }
         }
+    }
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
+    
 
