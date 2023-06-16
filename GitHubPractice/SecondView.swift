@@ -17,34 +17,37 @@ struct Task: Identifiable {
 // SecondView
 struct SecondView: View {
     @State private var tasks = [
-        Task(name: "Go on a 15-minute walk"),
-        Task(name: "Try out yoga"),
-        Task(name: "Do some gardening"),
-        Task(name: "Go bird watching"),
-        Task(name: "Call a friend (or a few friends!"),
-        Task(name: "Pick up 5 pieces of trash outside"),
-        Task(name: "Quick 5-minute meditation"),
-        Task(name: "Go geocaching"),
-        Task(name: "Water your plants"),
-        Task(name: "Watch the sunset")
+        Task(name: "Go on a 15-minute walk 🚶‍♂️"),
+        Task(name: "Try out yoga 🧘‍♀️"),
+        Task(name: "Do some gardening 🧑‍🌾"),
+        Task(name: "Go bird watching 🦅"),
+        Task(name: "Call a friend (or a few friends! 🗣️"),
+        Task(name: "Pick up 5 pieces of trash outside 🚮"),
+        Task(name: "Quick 5-minute meditation 🧎"),
+        Task(name: "Go geocaching 🗺️"),
+        Task(name: "Water your plants 🪴"),
+        Task(name: "Watch the sunset 🌅")
     ]
-
-
+    
+    
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(tasks) { task in
-                    Text(task.name)
+            NavigationView {
+                List {
+                    ForEach(tasks) { task in
+                        Text(task.name)
+                            .listRowBackground(Color("magenta"))
+                    }
+                    .onDelete(perform: deleteTask)
                 }
-                .onDelete(perform: deleteTask)
-            }
-            .navigationTitle("Task Page")
+                .navigationTitle("Your Tasks")
+                .font(.title2)
+                
         }
     }
-
         private func deleteTask(offsets: IndexSet) {
             tasks.remove(atOffsets: offsets)
         }
+    
     }
 
     struct SecondView_Previews: PreviewProvider {
